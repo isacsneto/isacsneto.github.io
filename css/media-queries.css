@@ -54,8 +54,6 @@
       height: 114px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -235,7 +233,7 @@
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
       
-   .bars { width: 100%; }
+   #resume .stack, .skill-tags { text-align: center; }
 
 
    /* Call To Action Section

@@ -209,7 +209,7 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 100%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -279,135 +279,48 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+#resume .stack {
+   font: 13px/22px 'opensans-semibold', sans-serif;
+   color: #11ABB0;
+   margin-top: -6px;
+   margin-bottom: 18px;
+}
+#resume .item h3 a, #resume .item h3 a:visited { color: #313131; }
+#resume .item h3 a:hover, #resume .item h3 a:focus { color: #11ABB0; }
+
+.skill {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+
 /*----------------------------------------------*/
-/*	Skill Bars
+/*	Skill Tags
 /*----------------------------------------------*/
 
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
+#resume .skill h3 {
+   font: 16px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #6E7881;
+   margin-bottom: 12px;
 }
-.bars .skills {
-  	margin-top: 36px;
+.skill-tags {
    list-style: none;
+   margin: 0 0 30px 0;
 }
-.bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
-}
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -36px;
-}
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
+.skill-tags li {
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   margin: 0 8px 10px 0;
+   padding: 6px 16px;
+   font: 14px/24px 'opensans-semibold', sans-serif;
+   color: #fff;
+   background: #313131;
+   border-radius: 3px;
 }
-
-.photoshop {
-  	width: 85%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 74%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 80%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 80%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 85%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 90%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-
-.mysql {
-   width: 78%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+.skill-tags.secondary li {
+   color: #313131;
+   background: #E8E8E8;
 }
 
 /* ------------------------------------------------------------------ */
