@@ -285,6 +285,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -6px;
    margin-bottom: 18px;
 }
+#resume .info.role { margin-top: 30px; }
 #resume .item h3 a, #resume .item h3 a:visited { color: #313131; }
 #resume .item h3 a:hover, #resume .item h3 a:focus { color: #11ABB0; }
 
@@ -340,6 +341,13 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
+#portfolio .more-projects {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-align: center;
+   margin-bottom: 0;
+}
+#portfolio .more-projects a { color: #11ABB0; }
+#portfolio .more-projects a:hover { color: #313131; }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
